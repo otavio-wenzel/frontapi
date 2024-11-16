@@ -1,0 +1,61 @@
+<!-- alunos.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="painel-page">
+    <header class="header">
+        <p>ENTIDADE NACIONAL DE SISTEMAS E INOVAÇÃO PARA NECESSIDADES ACADÊMICAS</p>
+    </header>
+    
+    <main class="painel-container">
+        <div class="user-info">
+            <p>Margarida de Oliveira Maduro<br>Secretária<br>NRU 6472114<br>Escola Quilombola da Chapada</p>
+            <a href="#" class="logout">Sair</a>
+        </div>
+
+        <h2>Lista de Alunos</h2>
+
+        <!-- Tabela de alunos -->
+        <table class="aluno-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Data de Nascimento</th>
+                    <th>RG</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemplo de uma linha de aluno -->
+                <tr>
+                    <td>1</td>
+                    <td>João da Silva</td>
+                    <td>15/05/2000</td>
+                    <td>123456789</td>
+                    <td>
+                        <button class="action-button edit-button">Editar</button>
+                        <button class="action-button delete-button">Excluir</button>
+                    </td>
+                </tr>
+                <!-- Adicione outras linhas de alunos conforme necessário -->
+            </tbody>
+        </table>
+
+        <!-- Botões para matricular aluno e voltar -->
+        <div class="button-grid">
+            <button class="menu-button">Matricular Aluno</button>
+            <button class="menu-button">Voltar</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>ENSINA</p>
+    </footer>
+</body>
+</html>
